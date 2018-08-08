@@ -3,3 +3,17 @@
   padding: 0;
   border: 0;
 }
+
+.site-container {
+  position: absolute;
+  top: 50px;
+  height: 789px;
+  width: 965px;
+  
+}
+
+header {
+  background-color: #aa4ee0;
+  font-family: 'Chelsea Market', cursive;
+  font-size: 60px;
+}
