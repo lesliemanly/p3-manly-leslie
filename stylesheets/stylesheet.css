@@ -45,3 +45,11 @@ header nav a:hover {
 header nav a:active {
   color: #00ffff
 }
+
+.background-image {
+  background-image: url("../images/pawprint.png");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 200px 0;
+  text-align: center;
+}
