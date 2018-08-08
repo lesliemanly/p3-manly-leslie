@@ -4,16 +4,44 @@
   border: 0;
 }
 
-.site-container {
-  position: absolute;
-  top: 50px;
-  height: 789px;
-  width: 965px;
-  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Chelsea Market', cursive;
 }
 
 header {
-  background-color: #aa4ee0;
-  font-family: 'Chelsea Market', cursive;
-  font-size: 60px;
+	background: #aa4ee0;
+	padding: 10px 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+
+.title {
+  font-size: 30px;
+  text-align: center;
+}
+
+header nav ul li {
+	display: inline;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	margin: 0 20px;
+}
+
+header nav a:hover {
+  color: #ffff00;
+}
+
+header nav a:active {
+  color: #00ffff
 }
