@@ -25,18 +25,19 @@
         <nav>
           <ul>
             <li><a href="#home">Home</a></li>
-            <li><a href="#meetmrs.manly">Meet Mrs. Manly</a></li>
+            <li><a href="#meet_mrs_manly">Meet Mrs. Manly</a></li>
             <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#camp_kinder_in_action">Camp Kinder in Action</a></li>
             <li><a href="#contact-me">Contact Me</a></li>
           </ul>
         </nav>
       </header>
 
     <main>
-      <section class="background-image" id="home"></section>
+      <section class="background-image" id="page1"></section>
 
       <div class="site-container" >
-        <section class="dates" id="date">
+        <section class="dates" id="home">
           <img class="welcome" src="images/welcome.gif" alt="welcome" title="welcome" style="width: 800px; height: 275px"/>
           <h1> to </h1>
           <h1> Kindergarten! </h1>
@@ -53,7 +54,7 @@
       <section class="background-image" id="page2"></section>
 
       <div class="meet-teacher">
-        <section class="teacher">
+        <section class="teacher" id="meet_mrs_manly">
           <div class="meet-mrs-manly">
             <div class="mrs-manly">
               <p class="meet">Hi!  My name is Leslie Manly.  I am so very excited to be your child's Kindergarten teacher this year.  We are going to have an awesome year! This year will begin my 10th year of teaching and my 3rd year at Onalaska Elementary and Onalaska ISD.
@@ -92,6 +93,16 @@
       <section class="background-image" id="page4"></section>
 
       <div class="container">
+        <section class="class-photos" id="camp_kinder_in_action">
+          <h1 class="photos"  >Camp Kinder in Action... </h1>
+
+        </section>
+      </div>
+
+      <section class="section-break-bottom"></section>
+      <section class="background-image" id="page5"></section>
+
+      <div class="container">
         <img class="greenpaw" src="images/greenpaw.png" alt="green paw print" title="green paw print" style="width: 300px; height: 300px"/>
         <section class="contact-section" id="contact-me">
           <h2 class="contact">Let's Talk...</h2>
@@ -102,6 +113,34 @@
           <h3 class="school"> Fax: <a href="tel:936-646-1019">936-646-1019</a></h3>
           <h3 class="school"> Email: <a href="mailto:Lmanly@onalaskaisd.net">LManly@onalaskaisd.net</a></h3>
           <h4 class="conference"> My conference time is Monday-Friday from 12:35pm until 1:20pm. </h4>
+
+        <form class="contact" id="test_form" name="test_form" method="" action="form.php" onsubmit="return validateForm(this)">
+            <div class="first-name">
+              <label for="first-name" class="label_input_wrap">First Name:</label>
+              <input type="text" name="req_first-name" id="first-name"  />
+            </div>
+
+            <div class="last-name">
+              <label for="last-name" class="label_input_wrap">Last Name:</label>
+              <input type="text" name="req_last-name" id="last-name"  />
+            </div>
+
+            <div class="email">
+              <label for="email" class="label_input_wrap">Email:</label>
+              <input type="email" name="req_email" id="email" required />
+            </div>
+
+            <div class="comments">
+              <label for="comments" class="label_input_wrap">Comments:</label>
+              <textarea name="comments" maxlength="1000" cols="45" rows="5"></textarea>
+            </div>
+
+            <div class="submit">
+              <input type="submit" />
+            </div>
+
+        </form>
+
         </section>
       </div>
 
@@ -109,7 +148,8 @@
 
     <footer>
       <div class="socialmedia">
-        <a href="https://www.facebook.com/onalaskaisd/"><img src="images/facebook.png" alt="facebook" title="facebook" /></a>
+        <a  class="facebook" href="https://www.facebook.com/onalaskaisd/"><img src="images/facebook.png" alt="facebook" title="facebook" /></a>
+        <p class="follow"> Follow us on facebook to get the lastest updates on school events!</p>
       </div>
     </footer>
 
