@@ -110,6 +110,7 @@ img.welcome {
 .me {
   border: 5px solid #d8207c;
   float:left;
+  margin: 35px 20px 35px 35px;
   }
 
 .meet-teacher {
@@ -123,12 +124,12 @@ width: 500px;
 height: 380px;
 padding: 30px;
 float: right;
-margin: 1px 1px 1px 1px;
+text-align: justify;
 }
 
 .meetme {
 text-align: center;
-margin: 0 25px 0px 300px;
+margin-left: 350px;
 }
 
 .schedule {
@@ -173,4 +174,40 @@ footer {
   background-attachment: fixed;
   background-size: cover;
   padding: 50px 0;
+}
+
+.contact-section {
+  background-color: #000000;
+  font-size: 20px;
+}
+
+.contact-section {
+  box-sizing: content-box;
+  width: 940px;
+  height: 600px;
+  padding: 35px;
+  border: 5px solid white;
+}
+
+.contact-section {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+    color: #00ff00;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.school {
+  color: #aa4ee0;
+  text-align: left;
+  margin-left: 450px;
+}
+
+
+.greenpaw {
+  float: left;
+  margin: 100px 150px 100px 350px;
 }
