@@ -50,7 +50,7 @@ header nav a:active {
   background-image: url("../images/pawprint.png");
   background-attachment: fixed;
   background-size: cover;
-  padding: 300px 0;
+  padding: 200px 0;
   text-align: center;
 }
 
@@ -180,14 +180,8 @@ text-align: justify;
 }
 
 .class-photos {
-clear: both;
-float: left;
-}
-
-.top-section {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Rocky_Beach {
