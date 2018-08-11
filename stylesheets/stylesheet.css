@@ -180,7 +180,20 @@ text-align: justify;
 }
 
 .class-photos {
-  margin-left: auto;
+clear: both;
+float: left;
+}
+
+.top-section {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+
+.Rocky_Beach {
+  position: absolute;
+  overflow: hidden;
+  margin-left: 225px;
   margin-right: auto;
 }
 
@@ -261,4 +274,23 @@ footer {
 .facebook {
   float: left;
   margin-top: -100px;
+}
+
+.greenpaw {
+  animation: rotate 3s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotateX(0deg);
+	}
+
+	50% {
+		transform: rotateX(-180deg);
+	}
+
+	100% {
+		transform: rotateX(0deg);
+	}
 }

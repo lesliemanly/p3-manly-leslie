@@ -14,7 +14,19 @@
         <link rel="stylesheet" href="stylesheets/stylesheet.css" />
 
         <!-- Scripts -->
-        <script type="text/javascript" src="scripts/javascript.js" ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/javascript.js" ></script>
+        <!-- fancyBox -->
+        <link rel="stylesheet" href="css/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.0.5"></script>
+
+        <!-- fancyBox button helpers -->
+        <link rel="stylesheet" href="css/jquery.fancybox-buttons.css?v=2.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=2.0.5"></script>
+
+        <!-- fancyBox thumbnail helpers -->
+        <link rel="stylesheet" href="css/jquery.fancybox-thumbs.css?v=2.0.5" type="text/css" media="screen" />
+        <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=2.0.5"></script>
 
     </head>
 
@@ -95,7 +107,21 @@
       <div class="container">
         <section class="class-photos" id="camp_kinder_in_action">
           <h1 class="photos"  >Camp Kinder in Action... </h1>
+          <a class="fancybox" href="images/class.jpg"><img src="images/class.jpg" width="220" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/classtrip.jpg"><img src="images/classtrip.jpg" width="220" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/lion.jpg"><img src="images/lion.jpg" width="220" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/zoo.jpg"><img src="images/zoo.jpg" width="220" height="200" alt="zoo_trip"></a>
 
+          <div class="top-section">
+            <div class="bg-video">
+              <video class="Rocky_Beach" width="500" autoplay muted loop>
+                <source src="videos/Rocky_Beach.m4v" type="video/m4v" />
+                <source src="videos/Rocky_Beach.ogv" type="video/ogv" />
+                <source src="videos/Rocky_Beach.webm" type="video/webm" />
+                Your browser does not support HTML5 video
+              </video>
+            </div>
+          </div>
         </section>
       </div>
 
@@ -152,6 +178,25 @@
         <p class="follow"> Follow us on facebook to get the lastest updates on school events!</p>
       </div>
     </footer>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".fancybox").fancybox({
+          openEffect: 'fade',
+          closeEffect: 'fade',
+          nextEffect: 'none',
+          prevEffect: 'none',
+          helpers: {
+            buttons: {
+              position: 'top'
+            },
+            title: {
+              type: 'float'
+            }
+          }
+        });
+      });
+    </script>
 
   </body>
 </html>
