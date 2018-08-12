@@ -11,21 +11,21 @@
         <link rel="short icon" href="images/favicon.ico" />
 
         <!-- CSS -->
-        <link rel="stylesheet" href="stylesheets/stylesheet.css" />
+        <link rel="stylesheet" href="stylesheet/stylesheet.css" />
 
         <!-- Scripts -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/javascript.js" ></script>
         <!-- fancyBox -->
-        <link rel="stylesheets" href="css/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
+        <link rel="stylesheet" href="stylesheet/jquery.fancybox.css?v=2.0.5" type="text/css" media="screen" />
         <script type="text/javascript" src="js/jquery.fancybox.pack.js?v=2.0.5"></script>
 
         <!-- fancyBox button helpers -->
-        <link rel="stylesheets" href="css/jquery.fancybox-buttons.css?v=2.0.5" type="text/css" media="screen" />
+        <link rel="stylesheet" href="stylesheet/jquery.fancybox-buttons.css?v=2.0.5" type="text/css" media="screen" />
         <script type="text/javascript" src="js/jquery.fancybox-buttons.js?v=2.0.5"></script>
 
         <!-- fancyBox thumbnail helpers -->
-        <link rel="stylesheets" href="css/jquery.fancybox-thumbs.css?v=2.0.5" type="text/css" media="screen" />
+        <link rel="stylesheet" href="stylesheet/jquery.fancybox-thumbs.css?v=2.0.5" type="text/css" media="screen" />
         <script type="text/javascript" src="js/jquery.fancybox-thumbs.js?v=2.0.5"></script>
 
     </head>
@@ -107,10 +107,10 @@
       <div class="container">
         <section class="class-photos" id="camp_kinder_in_action">
           <h1 class="photos"  >Camp Kinder in Action... </h1>
-          <a class="fancybox" href="images/class.jpg"><img src="images/class.jpg" width="175" height="200" alt="zoo_trip"></a>
-          <a class="fancybox" href="images/classtrip.jpg"><img src="images/classtrip.jpg" width="175" height="200" alt="zoo_trip"></a>
-          <a class="fancybox" href="images/lion.jpg"><img src="images/lion.jpg" width="175" height="200" alt="zoo_trip"></a>
-          <a class="fancybox" href="images/zoo.jpg"><img src="images/zoo.jpg" width="175" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/zoo1.jpg" title="Field Trip to Lufkin Zoo"><img src="images/zoo1.jpg" width="175" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/zoo2.jpg" title="Field Trip to Lufkin Zoo"><img src="images/zoo2.jpg" width="175" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/zoo3.jpg" title="Field Trip to Lufkin Zoo"><img src="images/zoo3.jpg" width="175" height="200" alt="zoo_trip"></a>
+          <a class="fancybox" href="images/zoo4.jpg" title="Field Trip to Lufkin Zoo"><img src="images/zoo4.jpg" width="175" height="200" alt="zoo_trip"></a>
 
           <div class="top-section">
             <div class="bg-video">
@@ -184,14 +184,14 @@
         $(".fancybox").fancybox({
           openEffect: 'fade',
           closeEffect: 'fade',
-          nextEffect: 'none',
+          nextEffect: 'fade',
           prevEffect: 'none',
           helpers: {
             buttons: {
-              position: 'top'
+              position: 'bottom'
             },
             title: {
-              type: 'float'
+              type: 'inside'
             }
           }
         });
